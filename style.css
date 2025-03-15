@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+nav {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+nav button:hover{
+  background-color: white;
+}
+.container-fluid a img {
+  height: 40px;
+  display: inline-block;
+  padding-left: 20px;
+}
+.container-fluid ul {
+  margin: auto;
+}
+
+.container-fluid li a {
+  color: white;
+}
+
+.container-fluid li {
+  padding-right: 40px;
+}
+.container-fluid {
+  height: 60px;
+}
+.main img {
+  width: 47vw;
+}
+.main h1 {
+  font-family: "Exo";
+  line-height: 1.2;
+  margin-bottom: 0.4em;
+
+  color: white;
+  font-weight: 500;
+
+  font-size: 28px;
+}
+.container-fluid li a:hover {
+  color: orangered;
+}
+.container-fluid button:hover {
+  background-color: orangered;
+}
+.main {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+.main button {
+  color: white;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  width: 50%;
+  height: 50px;
+  letter-spacing: 0;
+  background-color: transparent;
+  border: 3px solid orangered;
+  border-radius: 30px;
+}
+.main button:hover {
+  background-color: orangered;
+}
+.paracont {
+  position: relative;
+  top: 90px;
+}
+.content h1 {
+  font-family: "Exo";
+  font-weight: 500;
+}
+/*.new img{
+    width: 28vw;
+    
+    
+    
+}*/
+.amount {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+  width: 100%;
+}
+.new img {
+  margin: 30px 60px 30px 10px;
+  border-radius: 39px 39px 39px 39px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+.icon img {
+  height: 40px;
+  align-items: center;
+}
+.icon button {
+  background-color: transparent;
+  border: 2px solid orangered;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.dropdown-menu {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+.icon button:hover {
+  background-color: orangered;
+}
+
+.service span {
+  color: orange;
+}
+.card {
+  background-color: transparent;
+  background-image: linear-gradient(115deg, #3631315c 8%, #f1edeea6 61%);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.card:hover {
+  border-color: black;
+}
+.card h5 {
+  font-size: 20px;
+}
+.blog {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+.card a {
+  background-color: none;
+  border: none;
+}
+.newcrd {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+.newcrd img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.newcrd img:hover {
+  transition: all 1s;
+  transform: rotate(7deg);
+}
+.newbtn button {
+  color: white;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 600;
+
+  width: 20%;
+  height: 50px;
+  letter-spacing: 3;
+  background-color: transparent;
+  border: 3px solid orangered;
+  border-radius: 30px;
+  position: relative;
+  bottom: 20px;
+}
+.newbtn button:hover {
+  background-color: orangered;
+}
+.newcrd a {
+  background-image: linear-gradient(104deg, #1d1cd1 13%, #000000 100%);
+  color: white;
+  padding: 10px;
+}
+.newcrd a:hover {
+  color: orangered;
+}
+.service a {
+  position: relative;
+  top: 25px;
+}
+.newcrd a:hover {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+.items {
+  margin-top: 80px;
+}
+
+.nform input {
+  height: 45px;
+  width: 80%;
+  padding-left: 120px;
+  border-radius: 15px;
+}
+.forms {
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+  border: 1px solid blue;
+  border-radius: 35px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  text-align: center;
+  width: 80%;
+}
+.nform textarea {
+  width: 80%;
+  text-align: center;
+  margin-left: 50px;
+}
+.nform {
+  height: 100%;
+}
+.nform input:hover {
+  background-color: rgb(255, 93, 34);
+}
+.nform button {
+  width: 80%;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 9px;
+}
+.nform button:hover {
+  background-color: rgb(255, 93, 34);
+  color: white;
+}
+.footer{
+  background-image: linear-gradient(104deg, #000000 13%, #1d1cd1 100%);
+}
+.footer img{
+  height: 80px;
+}
+.footer p{
+  font-size: 15px;
+}
+
+.contat li{
+  list-style-type: none;
+  
+}
+.contat a{
+  text-decoration: none;
+  color: white;
+}
+.contat a:hover{
+  color: orangered;
+}
+.contat h6{
+  position: relative;
+  left:20px;
+}
+.log{
+  position: relative;
+  right: 60px;
+}
+.newcrd:hover{
+  transform: rotateY(30deg);
+  transition: 1s;
+ 
+}
+.newcrd p:hover{
+  transform: rotateY(20deg);
+  transition: 1s;
+  text-shadow: 30px yellow;
+  color: orangered;
+  
+}
+.newcrd .card:hover{
+  background-color: rgb(237, 100, 164);
+}
